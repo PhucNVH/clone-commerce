@@ -3,3 +3,28 @@
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
+
+.footer-bottom {
+  padding-top: 3.5rem;
+}
+.footer-bottom .fanpage ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.dropdown {
+  position: relative;
+  bottom: 0;
+}
+
+.header-nav-item:hover .dropdown {
+  display: block;
+}
+
+.first {
+  background-image: linear-gradient(to bottom right, #4100a3, #1998c7, #03eada);
+}
+
+section:not(.first):not(.second) {
+  @apply my-16;
+}
