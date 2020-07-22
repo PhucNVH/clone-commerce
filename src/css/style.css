@@ -36,11 +36,6 @@
 }
 
 @font-face {
-  font-family: "Gotham Light";
-  src: url("../fonts/iCiel\ Gotham-Thin.ttf");
-}
-
-@font-face {
   font-family: "Gotham";
   font-weight: 400;
   src: url("../fonts/Metropolis-Regular.otf");
@@ -49,7 +44,7 @@
 @font-face {
   font-family: "Gotham";
   font-weight: 500;
-  src: url("../fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.ttf");
+  src: url("../fonts/Metropolis/Metropolis-Medium.otf");
 }
 
 @font-face {
